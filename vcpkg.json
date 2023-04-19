@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "cradle-vcpkg-starter",
+    "version": "0.1.0",
+    "builtin-baseline": "ae59b93af0c1dce4126e963fca5b330662495fa1",
+    "dependencies": [
+        "cradle"
+    ],
+    "vcpkg-configuration": {
+        "registries": [
+            {
+                "kind": "git",
+                "repository": "https://github.com/open-cradle/vcpkg-registry",
+                "baseline": "b11e5101fa7eae253d67f1b90c0656183ea7f1a2",
+                "packages": [
+                    "cradle"
+                ]
+            }
+        ]
+    }
+}
