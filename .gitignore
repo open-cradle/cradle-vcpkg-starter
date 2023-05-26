@@ -1,0 +1,6 @@
+/*build*/
+.cache
+.vscode
+.gcovr.txt
+.lcov.info
+coverage.txt
